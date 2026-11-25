@@ -1,0 +1,19 @@
+From: "Billing Team" <invoice@billing-example.net>
+To: accounts@example.net
+Subject: Invoice 1059 is ready
+Date: Wed, 04 Jun 2025 11:00:00 +0000
+Authentication-Results: mx.example.net; spf=pass; dkim=pass; dmarc=pass
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="invoice-boundary"
+
+--invoice-boundary
+Content-Type: text/plain; charset="utf-8"
+
+Please review the attached invoice.
+--invoice-boundary
+Content-Type: text/html; name="invoice.html"
+Content-Disposition: attachment; filename="invoice.html"
+Content-Transfer-Encoding: base64
+
+PGh0bWw+PHNjcmlwdD5hbGVydCgnbm90IHJ1bicpPC9zY3JpcHQ+PC9odG1sPg==
+--invoice-boundary--

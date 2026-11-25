@@ -1,0 +1,11 @@
+From: "Example Bank Security <secure.example-bank.com>" <alerts@paypa1.com>
+Reply-To: alerts@paypa1.com
+To: customer@example.net
+Subject: Verify your account within 24 hours
+Date: Tue, 03 Jun 2025 09:10:00 +0000
+Authentication-Results: mx.example.net; spf=fail; dkim=fail; dmarc=fail
+MIME-Version: 1.0
+Content-Type: text/html; charset="utf-8"
+
+<html><body><p>Verify your account within 24 hours to prevent suspension.</p>
+<a href="https://paypa1.com/login">https://www.paypal.com/signin</a></body></html>

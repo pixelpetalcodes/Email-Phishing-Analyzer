@@ -1,0 +1,11 @@
+From: "Northside Books" <receipts@northsidebooks.example>
+Reply-To: receipts@northsidebooks.example
+Return-Path: <receipts@northsidebooks.example>
+To: reader@example.net
+Subject: Receipt for order B-2048
+Date: Sat, 31 May 2025 12:30:00 +0000
+Authentication-Results: mx.example.net; spf=pass; dkim=pass; dmarc=pass
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Thanks for your order. Your receipt total is $24.50. No action is needed. Visit https://northsidebooks.example/orders/B-2048 to view your order.

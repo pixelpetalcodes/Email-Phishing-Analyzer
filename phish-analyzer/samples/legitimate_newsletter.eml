@@ -1,0 +1,18 @@
+From: "Garden Notes" <newsletter@gardennotes.example>
+Reply-To: newsletter@gardennotes.example
+To: reader@example.net
+Subject: June tips for balcony herbs
+Date: Sun, 01 Jun 2025 08:00:00 +0000
+Authentication-Results: mx.example.net; spf=pass; dkim=pass; dmarc=pass
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="garden-boundary"
+
+--garden-boundary
+Content-Type: text/plain; charset="utf-8"
+
+This month, try basil, thyme, and mint in small pots. Read the growing guide at https://gardennotes.example/herbs.
+--garden-boundary
+Content-Type: text/html; charset="utf-8"
+
+<html><body><p>This month, try basil, thyme, and mint in small pots.</p><a href="https://gardennotes.example/herbs">Growing guide</a><script>do not include script text</script></body></html>
+--garden-boundary--

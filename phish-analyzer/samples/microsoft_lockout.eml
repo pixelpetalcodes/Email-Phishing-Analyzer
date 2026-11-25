@@ -1,0 +1,10 @@
+From: "Microsoft Account Team" <account-security@microsoft-alerts.example>
+Reply-To: recovery@unrelated-mail.example
+To: user@example.net
+Subject: Your Microsoft account is locked
+Date: Thu, 05 Jun 2025 15:25:00 +0000
+Authentication-Results: mx.example.net; spf=softfail; dkim=none; dmarc=fail
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Your account is locked. Confirm your password now to restore access.

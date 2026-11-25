@@ -1,0 +1,6 @@
+streamlit>=1.41
+google-genai>=1.0
+python-dotenv>=1.0
+pydantic>=2.7
+reportlab>=4.2
+pytest>=8.0
